@@ -20,8 +20,10 @@ def find_the_cheese(string_array)
     cheese_types[0]
   elsif string_array.include?(cheese_types[1])
     cheese_types[1]
-  else string_array.include?(cheese_types[2])
+  elsif string_array.include?(cheese_types[2])
     cheese_types[2]
+  else
+    nil
   end
 
 end
